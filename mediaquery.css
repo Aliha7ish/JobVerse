@@ -1,0 +1,30 @@
+/* @media  screen and (min-width: 1024px) {
+
+} */
+@media  screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        overflow-x: hidden;
+        min-width: 768px;
+        max-width: 1023px;
+    }
+    .landing-page-intro h1{
+        letter-spacing: 2rem;
+    }
+    .landing-page-intro p{
+        letter-spacing: 0.2rem;
+    }
+    .search-bar input{
+        width: 500px;
+    }
+    .list-items li a{
+        width: 40rem;
+    }
+    #about-us p{
+        width: 45rem;
+        margin-left: 2rem;
+        font-size: 1.1rem;
+    }
+}
+@media  screen and (max-width: 767px) {
+    
+}

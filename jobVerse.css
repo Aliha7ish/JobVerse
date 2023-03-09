@@ -1,0 +1,186 @@
+:root{
+    --hero-bg-gradient-point: #090222;
+    --hero-bg-gradient-rest: #303030b4;
+}
+body,html{
+    height: 100%;
+}
+body, .navbar-items{
+    margin: 0;
+}
+.landing-page{
+    max-width: 100%;
+    height: 760px;
+    overflow-x: hidden;
+    background-image:linear-gradient(var(--hero-bg-gradient-rest),var(--hero-bg-gradient-point) 95%, var(--hero-bg-gradient-point) 100%), url("landing-page-Background-(2).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    list-style: none;
+    height: 5rem; 
+}
+.navbar-items a{
+    text-decoration: none;
+    font-family: 'prospecregular';
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1.75px 11.84px #6C21D3;
+    letter-spacing: 0.7rem;
+}
+.navbar-items a:last-child{
+    word-spacing: -0.5rem;
+}
+.navbar-items a:hover{
+    color: #BD93FF;
+}
+.landing-page-intro{
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing-page-intro h1{
+    font-family: 'prospecregular';
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 3.5rem;
+    text-shadow: 0 4px 27px #6b21d379;
+}
+.landing-page-intro h1 span:nth-child(1){
+    color:rgb(255, 255, 255);
+}
+.landing-page-intro span:nth-child(2){
+    color: #a06eeb;
+}
+.landing-page-intro span:nth-child(3){
+    background: -webkit-linear-gradient(#5499b1, #78d4f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-page-intro span:nth-child(4){
+    background: -webkit-linear-gradient(#485458b0, #78d4f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-page-intro span:nth-child(5){
+    background: -webkit-linear-gradient(#5499b1, #78d4f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-page-intro span:nth-child(6){
+    background: -webkit-linear-gradient(#6acaeb, #8bd9f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-page-intro p{
+    font-family: 'robotomedium';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9fe0f5;
+    letter-spacing: 0.5rem;
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+}
+.search-bar{
+    width: fit-content;
+    border-radius: 54px;
+    margin: 1.8rem auto 0 auto;
+    border: none; 
+}
+.search-bar input{
+    width: 580px;
+    height: 40px;
+    background: transparent;
+    border-radius: 54px;
+    border: 6px solid transparent;
+    box-shadow: 0 0 9px #BD93FF;
+}
+.search-bar input::placeholder{
+    font-family: 'robotomedium';
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    width: fit-content;
+    position: absolute;
+    top: 0.5rem;
+    left: -5.5rem;
+    opacity: 0.9;
+}
+.bg{
+    min-height: 1536px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(var(--hero-bg-gradient-point) 0%,var(--hero-bg-gradient-point) 15% ,var(--hero-bg-gradient-rest)),url("Background.jpg");
+}
+.frequentjobs-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg h2{
+   font-family: 'prospecregular';
+   font-weight: 500;
+   font-size: 2.5rem;
+   color: #ffffff;
+   letter-spacing: 0.4rem;
+   text-shadow: 0 3.6px 22px #6C21D3;
+   width: fit-content;
+   margin: 3rem auto 5rem auto;
+}
+.list-items ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+.list-items li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'prospecregular';
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    display: block;
+    height: 2.5rem;
+    padding-top: 1.5rem;   
+    border: 1px solid #af82f8;
+    border-radius: 5px; 
+    width: 50rem;
+    text-align: center;
+}
+a.view-more{
+    width: 14rem !important;
+    height: 2rem !important;
+    padding-top: 1rem !important;
+    margin: 2.5rem auto 0 auto;
+    border-radius: 70px !important;
+    border: none !important;
+    background: linear-gradient(90deg,#5485EE, #9043FA);
+    text-shadow: 0 2px rgba(0, 0, 0, 0.404);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.589);
+}
+#about-us h2{    
+    padding-left: 3.5rem;
+    margin: 7rem auto 3rem auto;
+}
+#about-us p{
+    width: 60rem;
+    margin-left: 4rem;
+    font-family: 'gilroylight';
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}

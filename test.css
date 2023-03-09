@@ -1,0 +1,35 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: black;
+    background: linear-gradient(90deg,blue, yellow) border-box;
+    mask: linear-gradient(red, green) padding-box, linear-gradient(white, white);
+    mask-composite: exclude;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50px;
+}
+form{
+    background-color: transparent;
+    
+    width: 22rem;
+    height: 3.5rem;
+    margin: 20rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 2rem;
+    width: 20rem;
+    background: transparent;
+    outline: none;
+}
